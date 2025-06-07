@@ -4,7 +4,7 @@
   tasks:
     - name: copy
       copy:
-        src: "var/snap/jenkins/4874/workspace/mvnans2/target/mvnans2.war"
+        src: "/var/snap/jenkins/4874/workspace/mvnans2/target/mvnans2.war"
         dest: "/opt/tomcat/webapps/mvnans2.war"
         remote_src: no
         
